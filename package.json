@@ -1,0 +1,24 @@
+{
+  "name": "badminton-score",
+  "version": "1.0.0",
+  "description": "羽毛球比赛记分系统",
+  "main": "server.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.13.0",
+    "vue": "^3.3.4",
+    "vue-router": "^4.0.0",
+    "@vue/cli-service": "^5.0.8"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-service": "~5.0.0"
+  }
+}
